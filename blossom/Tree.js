@@ -5,7 +5,7 @@ class Tree {
         this.depth = depth
         this.length = height / 50 * depth
         this.leaves = []
-        this.leafInterval = Math.round(random() * 10000)
+        this.leafInterval = Math.round(random(200, 10000))
         this.childL = null
         this.childR = null
 
