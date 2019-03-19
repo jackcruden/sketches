@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blossum</title>
+    <title>Blossom</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
-
-    <script src="Tree.js"></script>
-    <script src="script.js"></script>
+    <script src="blossom/Tree.js"></script>
+    <script src="blossom/script.js"></script>
 
     <style>
+        html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
         body {
+            height: 100%;
+            padding: 0;
+            overflow: auto;
             margin: 0;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        canvas {
+            display: block;
         }
     </style>
 </head>

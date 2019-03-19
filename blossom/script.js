@@ -46,7 +46,15 @@ function draw() {
     // }
 }
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight)
+}
+
 function mouseClicked() {
+
+}
+
+function touchStarted() {
     seed = random(-137, 137)
     console.log('Seed', seed)
     redraw()
