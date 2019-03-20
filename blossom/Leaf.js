@@ -1,12 +1,15 @@
 class Leaf {
-    dead = false
-
     constructor(x, y, size, color) {
         this.x = x
         this.y = y
         this.size = size
         this.color = color
         this.speed = 0.5
+        this.dead = false
+    }
+
+    getDead() {
+        return this.dead
     }
 
     draw() {

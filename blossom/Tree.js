@@ -98,7 +98,7 @@ class Tree {
         for (var k = this.leaves.length; k > 0; k--) {
             this.leaves[k-1].draw()
 
-            if (this.leaves[k-1].dead) {
+            if (this.leaves[k-1].getDead()) {
                 this.leaves.splice(k-1, 1)
             }
         }
