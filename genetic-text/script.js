@@ -43,10 +43,10 @@ function draw() {
     let y = box.y - 20
     let w = box.w + 40
     let h = box.h + 40
-    rect((windowWidth/2) - ((x+w)/2), (windowHeight/2) - ((y+h)/2), w, h)
+    rect((windowWidth/2) - ((x+w)/2) + 40, (windowHeight/2) - ((y+h)/2), w, h)
     fill(255)
     textSize(50)
-    text(fittest, (windowWidth/2) - ((x+w)/2) + 20, (windowHeight/2) - ((y+h)/2) + 50)
+    text(fittest, (windowWidth/2) - ((x+w)/2) + 60, (windowHeight/2) - ((y+h)/2) + 50)
 
     // Draw the stats
     // fill(0)
